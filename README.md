@@ -1,8 +1,11 @@
-# React + Vite
+# Airbnb clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was a chance for me to explore a few critical topics:
+- The concept of props and reusable functions
+- Allowing me to store data in a separate data file
+- Then mapping through the data and retrieving the information
+- And rendering dynamically blocks in the DOM
 
-Currently, two official plugins are available:
+The next project will be a solo project, a travel journal. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Happy coding!
