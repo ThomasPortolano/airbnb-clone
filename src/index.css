@@ -1,68 +1,111 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+html,
+#root {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+  max-width: 600px;
 }
 
 body {
   margin: 0;
+}
+
+.navbar {
+  text-align: left;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > .logo {
+  width: 5.17em;
+  height: auto;
+  padding: 1em;
+}
+
+.banner {
+  width: 395px;
+  margin: 2em auto;
+}
+
+.hero-text {
+  text-align: left;
+  margin-left: 3em;
+}
+
+.blurb {
+  width: 70%;
+}
+
+.card-visual {
+  border-radius: 6px;
+  width: 100%;
+}
+
+.price-from {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.total-price {
+  font-size: 0.75rem;
+}
+
+.card {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  flex: 0 0 auto;
+  width: 175px;
+  padding: 0.5em;
+  position: relative;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* Typography */
+.hero-title {
+  font-weight: 600;
+  font-size: 2.25rem;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.card-title {
+  font-size: 0.8rem;
+  margin: 0 0.2em;
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.card-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3em;
+  font-size: 0.75em;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-left: 2em;
+}
+
+.red-star {
+  height: 14px;
+  margin-right: 0.3em;
+}
+
+.location {
+  margin-left: 0.3em;
+}
+
+.card-seats {
+  position: absolute;
+    top: 0.7em;
+    left: 0.7em;
+    background-color: white;
+    padding: 0.3em 0.4em;
+    margin: 0.3em;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 0.8rem;
 }
